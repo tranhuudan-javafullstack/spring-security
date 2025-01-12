@@ -14,7 +14,29 @@
 * Method level security in web/non-web applications
 * Social Login integrations into web applications
 * Set up of Authorization Server using KeyCloak, Spring Authorization Server 
-  
+
+  Pre-requisite  
+Good understanding on Java and Spring concepts
+Basic understanding on SpringBoot & REST services is a bonus but not mandatory
+Interest to learn and explore about Spring Security
+Important Links
+Spring website to generate projects - https://start.spring.io/
+Spring Website - https://spring.io/
+Spring Projects website - https://spring.io/projects
+Spring Boot properties - https://docs.spring.io/spring-boot/docs/current/reference/html/application-properties.html
+Online Bcrypt generator - https://bcrypt-generator.com
+Docker website - https://www.docker.com/
+SQLECTRON website - https://sqlectron.github.io
+Warp terminal website - https://www.warp.dev/
+OAuth2 Website - https://oauth.net/2/
+OAuth 2.1 Blog - https://aaronparecki.com/2019/12/12/21/its-time-for-oauth-2-dot-1
+OAuth2 playground - https://www.oauth.com/playground/
+KeyCloak website - https://www.keycloak.org
+KeyCloak guides - https://www.keycloak.org/guides
+KeyCloak Well known APIs - http://localhost:8180/realms/eazybankdev/.well-known/openid-configuration
+Angular Keycloak library - https://www.npmjs.com/package/keycloak-angular
+Keycloak official documentation - https://www.keycloak.org/documentation
+Keycloak Admin REST APIs - https://www.keycloak.org/docs-api/latest/rest-api/index.html
 
 |     Command       |     Description          |
 | ------------- | ------------- |
