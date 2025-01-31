@@ -25,9 +25,8 @@ public class EazyBankUsernamePwdAuthenticationProvider implements Authentication
         UserDetails userDetails = userDetailsService.loadUserByUsername(username);
         if (passwordEncoder.matches(pwd, userDetails.getPassword())) {
             return new UsernamePasswordAuthenticationToken(username, pwd, userDetails.getAuthorities());
-        } else {
-            throw new BadCredentialsException("Invalid password!");
         }
+        throw new BadCredentialsException("Invalid password!");
     }
 
     @Override
